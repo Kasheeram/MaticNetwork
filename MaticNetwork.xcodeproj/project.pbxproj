@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891A727423D1DEF0000643F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A727323D1DEF0000643F2 /* AppDelegate.swift */; };
+		891A727623D1DEF0000643F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A727523D1DEF0000643F2 /* SceneDelegate.swift */; };
+		891A727823D1DEF0000643F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A727723D1DEF0000643F2 /* ViewController.swift */; };
+		891A727B23D1DEF0000643F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891A727923D1DEF0000643F2 /* Main.storyboard */; };
+		891A727E23D1DEF0000643F2 /* MaticNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 891A727C23D1DEF0000643F2 /* MaticNetwork.xcdatamodeld */; };
+		891A728023D1DEF3000643F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891A727F23D1DEF3000643F2 /* Assets.xcassets */; };
+		891A728323D1DEF3000643F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891A728123D1DEF3000643F2 /* LaunchScreen.storyboard */; };
+		891A728E23D1DEF4000643F2 /* MaticNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A728D23D1DEF4000643F2 /* MaticNetworkTests.swift */; };
+		891A729923D1DEF4000643F2 /* MaticNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891A729823D1DEF4000643F2 /* MaticNetworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891A728A23D1DEF3000643F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891A726823D1DEF0000643F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891A726F23D1DEF0000643F2;
+			remoteInfo = MaticNetwork;
+		};
+		891A729523D1DEF4000643F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891A726823D1DEF0000643F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891A726F23D1DEF0000643F2;
+			remoteInfo = MaticNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891A727023D1DEF0000643F2 /* MaticNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaticNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891A727323D1DEF0000643F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		891A727523D1DEF0000643F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		891A727723D1DEF0000643F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		891A727A23D1DEF0000643F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		891A727D23D1DEF0000643F2 /* MaticNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaticNetwork.xcdatamodel; sourceTree = "<group>"; };
+		891A727F23D1DEF3000643F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		891A728223D1DEF3000643F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		891A728423D1DEF3000643F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891A728923D1DEF3000643F2 /* MaticNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaticNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891A728D23D1DEF4000643F2 /* MaticNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaticNetworkTests.swift; sourceTree = "<group>"; };
+		891A728F23D1DEF4000643F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891A729423D1DEF4000643F2 /* MaticNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaticNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891A729823D1DEF4000643F2 /* MaticNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaticNetworkUITests.swift; sourceTree = "<group>"; };
+		891A729A23D1DEF4000643F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891A726D23D1DEF0000643F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A728623D1DEF3000643F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A729123D1DEF4000643F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891A726723D1DEF0000643F2 = {
+			isa = PBXGroup;
+			children = (
+				891A727223D1DEF0000643F2 /* MaticNetwork */,
+				891A728C23D1DEF4000643F2 /* MaticNetworkTests */,
+				891A729723D1DEF4000643F2 /* MaticNetworkUITests */,
+				891A727123D1DEF0000643F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891A727123D1DEF0000643F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891A727023D1DEF0000643F2 /* MaticNetwork.app */,
+				891A728923D1DEF3000643F2 /* MaticNetworkTests.xctest */,
+				891A729423D1DEF4000643F2 /* MaticNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891A727223D1DEF0000643F2 /* MaticNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				891A727323D1DEF0000643F2 /* AppDelegate.swift */,
+				891A727523D1DEF0000643F2 /* SceneDelegate.swift */,
+				891A727723D1DEF0000643F2 /* ViewController.swift */,
+				891A727923D1DEF0000643F2 /* Main.storyboard */,
+				891A727F23D1DEF3000643F2 /* Assets.xcassets */,
+				891A728123D1DEF3000643F2 /* LaunchScreen.storyboard */,
+				891A728423D1DEF3000643F2 /* Info.plist */,
+				891A727C23D1DEF0000643F2 /* MaticNetwork.xcdatamodeld */,
+			);
+			path = MaticNetwork;
+			sourceTree = "<group>";
+		};
+		891A728C23D1DEF4000643F2 /* MaticNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				891A728D23D1DEF4000643F2 /* MaticNetworkTests.swift */,
+				891A728F23D1DEF4000643F2 /* Info.plist */,
+			);
+			path = MaticNetworkTests;
+			sourceTree = "<group>";
+		};
+		891A729723D1DEF4000643F2 /* MaticNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				891A729823D1DEF4000643F2 /* MaticNetworkUITests.swift */,
+				891A729A23D1DEF4000643F2 /* Info.plist */,
+			);
+			path = MaticNetworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891A726F23D1DEF0000643F2 /* MaticNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891A729D23D1DEF4000643F2 /* Build configuration list for PBXNativeTarget "MaticNetwork" */;
+			buildPhases = (
+				891A726C23D1DEF0000643F2 /* Sources */,
+				891A726D23D1DEF0000643F2 /* Frameworks */,
+				891A726E23D1DEF0000643F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaticNetwork;
+			productName = MaticNetwork;
+			productReference = 891A727023D1DEF0000643F2 /* MaticNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		891A728823D1DEF3000643F2 /* MaticNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891A72A023D1DEF4000643F2 /* Build configuration list for PBXNativeTarget "MaticNetworkTests" */;
+			buildPhases = (
+				891A728523D1DEF3000643F2 /* Sources */,
+				891A728623D1DEF3000643F2 /* Frameworks */,
+				891A728723D1DEF3000643F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891A728B23D1DEF3000643F2 /* PBXTargetDependency */,
+			);
+			name = MaticNetworkTests;
+			productName = MaticNetworkTests;
+			productReference = 891A728923D1DEF3000643F2 /* MaticNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		891A729323D1DEF4000643F2 /* MaticNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891A72A323D1DEF4000643F2 /* Build configuration list for PBXNativeTarget "MaticNetworkUITests" */;
+			buildPhases = (
+				891A729023D1DEF4000643F2 /* Sources */,
+				891A729123D1DEF4000643F2 /* Frameworks */,
+				891A729223D1DEF4000643F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891A729623D1DEF4000643F2 /* PBXTargetDependency */,
+			);
+			name = MaticNetworkUITests;
+			productName = MaticNetworkUITests;
+			productReference = 891A729423D1DEF4000643F2 /* MaticNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891A726823D1DEF0000643F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "kashee kushwaha";
+				TargetAttributes = {
+					891A726F23D1DEF0000643F2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					891A728823D1DEF3000643F2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 891A726F23D1DEF0000643F2;
+					};
+					891A729323D1DEF4000643F2 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 891A726F23D1DEF0000643F2;
+					};
+				};
+			};
+			buildConfigurationList = 891A726B23D1DEF0000643F2 /* Build configuration list for PBXProject "MaticNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891A726723D1DEF0000643F2;
+			productRefGroup = 891A727123D1DEF0000643F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891A726F23D1DEF0000643F2 /* MaticNetwork */,
+				891A728823D1DEF3000643F2 /* MaticNetworkTests */,
+				891A729323D1DEF4000643F2 /* MaticNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891A726E23D1DEF0000643F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891A728323D1DEF3000643F2 /* LaunchScreen.storyboard in Resources */,
+				891A728023D1DEF3000643F2 /* Assets.xcassets in Resources */,
+				891A727B23D1DEF0000643F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A728723D1DEF3000643F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A729223D1DEF4000643F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891A726C23D1DEF0000643F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891A727823D1DEF0000643F2 /* ViewController.swift in Sources */,
+				891A727E23D1DEF0000643F2 /* MaticNetwork.xcdatamodeld in Sources */,
+				891A727423D1DEF0000643F2 /* AppDelegate.swift in Sources */,
+				891A727623D1DEF0000643F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A728523D1DEF3000643F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891A728E23D1DEF4000643F2 /* MaticNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A729023D1DEF4000643F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891A729923D1DEF4000643F2 /* MaticNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891A728B23D1DEF3000643F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891A726F23D1DEF0000643F2 /* MaticNetwork */;
+			targetProxy = 891A728A23D1DEF3000643F2 /* PBXContainerItemProxy */;
+		};
+		891A729623D1DEF4000643F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891A726F23D1DEF0000643F2 /* MaticNetwork */;
+			targetProxy = 891A729523D1DEF4000643F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		891A727923D1DEF0000643F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891A727A23D1DEF0000643F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		891A728123D1DEF3000643F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891A728223D1DEF3000643F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891A729B23D1DEF4000643F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		891A729C23D1DEF4000643F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		891A729E23D1DEF4000643F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaticNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MaticNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		891A729F23D1DEF4000643F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaticNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MaticNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		891A72A123D1DEF4000643F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaticNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MaticNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaticNetwork.app/MaticNetwork";
+			};
+			name = Debug;
+		};
+		891A72A223D1DEF4000643F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaticNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MaticNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaticNetwork.app/MaticNetwork";
+			};
+			name = Release;
+		};
+		891A72A423D1DEF4000643F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaticNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MaticNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaticNetwork;
+			};
+			name = Debug;
+		};
+		891A72A523D1DEF4000643F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaticNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CrazyDev.MaticNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaticNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891A726B23D1DEF0000643F2 /* Build configuration list for PBXProject "MaticNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891A729B23D1DEF4000643F2 /* Debug */,
+				891A729C23D1DEF4000643F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891A729D23D1DEF4000643F2 /* Build configuration list for PBXNativeTarget "MaticNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891A729E23D1DEF4000643F2 /* Debug */,
+				891A729F23D1DEF4000643F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891A72A023D1DEF4000643F2 /* Build configuration list for PBXNativeTarget "MaticNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891A72A123D1DEF4000643F2 /* Debug */,
+				891A72A223D1DEF4000643F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891A72A323D1DEF4000643F2 /* Build configuration list for PBXNativeTarget "MaticNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891A72A423D1DEF4000643F2 /* Debug */,
+				891A72A523D1DEF4000643F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		891A727C23D1DEF0000643F2 /* MaticNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				891A727D23D1DEF0000643F2 /* MaticNetwork.xcdatamodel */,
+			);
+			currentVersion = 891A727D23D1DEF0000643F2 /* MaticNetwork.xcdatamodel */;
+			path = MaticNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 891A726823D1DEF0000643F2 /* Project object */;
+}
