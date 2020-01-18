@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ArticleDetails" representedClassName="ArticleDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="publishedAt" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="urlToImage" optional="YES" attributeType="String"/>
+        <relationship name="sourceDetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SourceDetails" inverseName="articleDetails" inverseEntity="SourceDetails"/>
+    </entity>
+    <entity name="SourceDetails" representedClassName="SourceDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="articleDetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ArticleDetails" inverseName="sourceDetails" inverseEntity="ArticleDetails"/>
+    </entity>
+    <elements>
+        <element name="ArticleDetails" positionX="-45" positionY="0" width="128" height="163"/>
+        <element name="SourceDetails" positionX="-45" positionY="54" width="128" height="88"/>
+    </elements>
 </model>
